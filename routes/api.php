@@ -26,12 +26,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return 'I am from  API Student';
 // });
 
-Route::get('/student',[StudentController::class,'index']);
+// Route::get('/student',[StudentController::class,'index']);
 
-Route::get('/student/{id}',[StudentController::class,'show']);
+// Route::get('/student/{id}',[StudentController::class,'show']);
 
-Route::post('/student',[StudentController::class,'store']);
+// Route::post('/student',[StudentController::class,'store']);
 
-Route::put('/student/edit/{id}',[StudentController::class,'edit']);
+// Route::put('/student/edit/{id}',[StudentController::class,'edit']);
 
-Route::delete('/student/{id}',[StudentController::class,'destroy']);
+// Route::delete('/student/{id}',[StudentController::class,'destroy']);
