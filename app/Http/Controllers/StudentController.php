@@ -244,7 +244,7 @@ class StudentController extends Controller
             });
         }
         
-        $students = $query->latest()->paginate(12);
+        $students = $query->latest()->paginate(6);
         
         return view('students.index', compact('students'));
     }
